@@ -1,0 +1,72 @@
+.homepage-container {
+  background: linear-gradient(135deg, #000428, #004e92);
+  min-height: 100vh;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+/* Card Styling */
+.dashboard-card {
+  width: 100%;            /* Take full grid width */
+  min-width: 280px;       /* Same minimum width */
+  max-width: 360px;       /* Prevent overly wide */
+  min-height: 300px;      /* Same height */
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 2.5rem;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Icon Circle */
+.dashboard-icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -60px auto 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-icon i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Card Text */
+.dashboard-card h5 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.dashboard-card p {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+}
+
+/* Button */
+.btn-knowmore {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-knowmore:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+}
